@@ -22,7 +22,7 @@ app.set('trust proxy', 1);
 // Enable CORS
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || 'http://localhost:3000',
+    origin: process.env.CLIENT_URL || 'https://book-pink-psi.vercel.app',
     credentials: true,
   })
 );
